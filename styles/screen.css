@@ -189,6 +189,8 @@ table, th, td {
 h4 {
     color: #8B0000; /* DarkRed */
 }
+* {
   box-sizing: border-box;
+}
 
   
