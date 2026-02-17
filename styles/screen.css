@@ -1,4 +1,5 @@
-body {
+body 
+{
     color: white;
     background-color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -60,3 +61,134 @@ html {scroll-behavior: smooth;}
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Blue background for a specific heading/text */
+.light-blue-text-bg {
+    display: table;
+    margin: 0.25em auto;
+    background-color: #1abbdf; /* DodgerBlue */
+    color: white;
+    padding: 0.15em 0.5em;
+    border-radius: 3px;
+    text-align: center;
+}
+/* Red background for a specific heading/text */
+.red-text-bg {
+    display: table;
+    margin: 0.25em auto;
+    background-color: #e21c1c; /* FireBrick */
+    color: white;
+    padding: 0.15em 0.5em;
+    border-radius: 3px;
+    text-align: center;
+}
+/* Orange background for a specific heading/text */
+.orange-text-bg {
+    display: table;
+    margin: 0.25em auto;
+    background-color: #e27c1c; /* Orange */
+    color: white;
+    padding: 0.15em 0.5em;
+    border-radius: 3px;
+    text-align: center;
+}
+/* blue background for a specific heading/text */
+.blue-text-bg {
+    display: table;
+    margin: 0.25em auto;
+    background-color: #1c5be2; /* DodgerBlue */
+    color: white;
+    padding: 0.15em 0.5em;
+    border-radius: 3px;
+    text-align: center;
+}
+/* Green background for a specific heading/text */
+.green-text-bg {
+    display: table;
+    margin: 0.25em auto;
+    background-color: #1ce21c7e; /* Green */
+    color: white;
+    padding: 0.15em 0.5em;
+    border-radius: 3px;
+    text-align: center;
+}
+/* Pink background for a specific heading/text */
+.pink-text-bg {
+    display: table;
+    margin: 0.25em auto;
+    background-color: #e21c9daa; /* Pink */
+    color: white;
+    padding: 0.15em 0.5em;
+    border-radius: 3px;
+    text-align: center;
+}
+/* Grey background for a specific heading/text */
+.grey-text-bg {
+    display: table;
+    margin: 0.25em auto;
+    background-color: #7e7e7e; /* Grey */
+    color: white;
+    padding: 0.15em 0.5em;
+    border-radius: 3px;
+    text-align: center;
+}
+/* Navy blue background for a specific heading/text */
+.navy-blue-text-bg {
+    display: table;
+    margin: 0.25em auto;
+    background-color: #1c1c7e; /* Navy Blue */
+    color: white;
+    padding: 0.15em 0.5em;
+    border-radius: 3px;
+    text-align: center;
+}
+/* Dark grey background for a specific heading/text */
+.dark-grey-text-bg {
+    display: table;
+    margin: 0.25em auto;
+    background-color: #4d4d4daf; /* Dark Grey */
+    color: white;
+    padding: 0.15em 0.5em;
+    border-radius: 3px;
+    text-align: center;
+}
+/* Dark red background for a specific heading/text */
+.dark-red-text-bg {
+    display: table;
+    margin: 0.25em auto;
+    background-color: #7e1c1cc7; /* Dark Red */
+    color: white;
+    padding: 0.15em 0.5em;
+    border-radius: 3px;
+    text-align: center;
+}
+table, th, td {
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+}
+
+/* Driver side-by-side layout */
+.driver-row {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.driver-card {
+    flex: 1 1 45%;
+    min-width: 220px;
+}
+.driver-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    color: #8B0000; /* DarkRed */
+}
+  box-sizing: border-box;
+
+  
