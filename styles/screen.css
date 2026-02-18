@@ -188,6 +188,9 @@ table, th, td {
 
 h4 {
     color: white;
+    border: white solid 1px;
+    margin: 0.5rem auto;
+    padding: 0.25rem;
 }
 * {
   box-sizing: border-box;
