@@ -3,6 +3,7 @@ body
     color: white;
     background-color: #000000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 16px;
 }
 
 header,
