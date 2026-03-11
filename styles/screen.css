@@ -200,3 +200,16 @@ h4 {
     margin: 1em auto;
     border: 1px solid white;
 }
+
+figure {
+    text-align: center;
+    border : 1px solid white;
+    padding: 0.5em;
+    margin : 1em auto;
+    width : 35em;
+}
+figcaption {
+    font-size: 0.9em;
+    color: white;
+    margin-top: 0.5em;
+}
