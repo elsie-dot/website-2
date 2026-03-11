@@ -195,6 +195,8 @@ h4 {
 * {
   box-sizing: border-box;
 }
- 
-
-  
+ iframe {
+    display: block;
+    margin: 1em auto;
+    border: 1px solid white;
+}
