@@ -289,3 +289,9 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+p.double {border-style: double;
+    border-color: white;
+    padding: 10px;
+    margin: 1em auto;
+    width: 35em;
+}
