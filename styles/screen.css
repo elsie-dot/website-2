@@ -264,7 +264,5 @@ body {
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
-body {
-  background-image: url('flag.jpeg');
-}
+
 
