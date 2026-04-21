@@ -44,8 +44,14 @@ and (orientation: landscape) {
         margin: 0 auto;
     }
 }
-
-
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stacks side-by-side items on top of each other */
+    }
+    h1 {
+        font-size: 24px; /* Shrinks text so it fits */
+    }
+}
 header,
 footer,
 h2 {
@@ -320,4 +326,11 @@ body {
     /* This keeps the background fixed so it doesn't move when you scroll */
     background-attachment: fixed;
 }
-
+nav {
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.1); /* Very faint white */
+    backdrop-filter: blur(10px);          /* This blurs the F1 car as it passes under */
+    border-bottom: 2px solid #e10600;     /* F1 Red racing stripe */
+    padding: 15px 0;
+}
