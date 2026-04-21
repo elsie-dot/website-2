@@ -281,4 +281,7 @@ body {
     /* This keeps the background fixed so it doesn't move when you scroll */
     background-attachment: fixed;
 }
+html {
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' style='font-size:24px;'><text y='50%'>🏎️</text></svg>"), auto;
+}
 
