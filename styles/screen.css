@@ -17,6 +17,7 @@ h2 {
     margin: 16px;
     padding: 0.5px;
     margin-top: 2em;
+    text-align: center;
 }
 h1 {
     text-align: center;
@@ -178,17 +179,19 @@ table, th, td {
   border-collapse: collapse;
 }
 
-/* Driver side-by-side layout */
+/* Driver side-by-side layout for desktop */
 .driver-row {
     display: flex;
     gap: 1.5rem;
     align-items: flex-start;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin-bottom: 1rem;
 }
 .driver-card {
     flex: 1 1 45%;
     min-width: 220px;
+    box-sizing: border-box;
 }
 .driver-card img {
     max-width: 100%;

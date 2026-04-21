@@ -305,17 +305,3 @@ body {
 }
 
 
-
-/* Restore stacked (column) layout on all sizes */
-.driver-row {
-        display: block !important;
-        margin-bottom: 1rem;
-}
-.driver-card {
-        width: 100% !important;
-        box-sizing: border-box;
-        margin-bottom: 1rem;
-        flex: none !important;
-}
-
-
