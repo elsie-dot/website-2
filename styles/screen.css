@@ -265,4 +265,20 @@ body {
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
+body {
+    /* The path to your image */
+    background-image: url('background2.jpeg');
+
+    /* This keeps the image from repeating if it's too small */
+    background-repeat: no-repeat;
+
+    /* This centers the image */
+    background-position: center;
+
+    /* This makes the image cover the entire screen, stretching if needed */
+    background-size: cover;
+
+    /* This keeps the background fixed so it doesn't move when you scroll */
+    background-attachment: fixed;
+}
 
