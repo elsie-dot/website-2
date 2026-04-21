@@ -303,5 +303,123 @@ body {
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
+body {
+    /* The path to your image */
+    background-image: url('background2.jpeg');
 
+    /* This keeps the image from repeating if it's too small */
+    background-repeat: no-repeat;
+
+    /* This centers the image */
+    background-position: center;
+
+    /* This makes the image cover the entire screen, stretching if needed */
+    background-size: cover;
+
+    /* This keeps the background fixed so it doesn't move when you scroll */
+    background-attachment: fixed;
+}
+nav {
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.1); /* Very faint white */
+    backdrop-filter: blur(10px);          /* This blurs the F1 car as it passes under */
+    border-bottom: 2px solid #e10600;     /* F1 Red racing stripe */
+    padding: 15px 0;
+}
+.inset-box {
+    background-color: #1e1010;
+    color: #d03737; 
+    padding: 20px;
+    border: 2px solid #130101;
+    border-radius: 5px;
+    font-weight: 900;
+
+    
+    /* This creates the sunken look */
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.8);
+    
+    font-family: 'racing sans one', sans-serif;
+} 
+.f1-combined-card {
+    position: relative;
+    width: 250px;
+    margin: 100px auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* 1. The Pop-out Image */
+.pop-out-driver {
+    position: absolute;
+    top: -85px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    z-index: 10;
+    transition: transform 0.3s ease;
+}
+
+/* 2. The Combined Glass & Spec Box */
+.glass-spec-box {
+    background: rgba(20, 20, 20, 0.6); /* Darker glass for tech feel */
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 4px solid #e10600; /* Racing Red top bar */
+    border-radius: 0 0 20px 20px;
+    padding: 80px 20px 20px; /* Space for the head at the top */
+    color: white;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.5);
+    overflow: hidden;
+}
+
+/* 3. The Inset Image (F1 Theme) */
+.inset-logo {
+    float: right;
+    width: 60px;
+    filter: grayscale(100%) brightness(2); /* Makes it look like a tech icon */
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+/* 4. Small Tech Details */
+.header-data {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.driver-number {
+    font-size: 2rem;
+    font-weight: 900;
+    font-style: italic;
+    opacity: 0.3;
+}
+
+.status-badge {
+    background: #e10600;
+    font-size: 10px;
+    padding: 2px 8px;
+    height: 15px;
+    border-radius: 3px;
+    animation: blink 1s infinite;
+}
+
+/* Racing Barcode decoration */
+.f1-barcode {
+    width: 100%;
+    height: 15px;
+    background: repeating-linear-gradient(90deg, #fff 0, #fff 2px, transparent 2px, transparent 6px);
+    opacity: 0.2;
+    margin-top: 15px;
+}
+
+@keyframes blink {
+    50% { opacity: 0.5; }
+}
+
+/* Interaction */
+.f1-combined-card:hover .pop-out-driver {
+    transform: translateX(-50%) translateY(-10px) scale(1.05);
+}
 
