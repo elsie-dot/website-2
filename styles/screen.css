@@ -367,4 +367,17 @@ nav {
 .f1-combined-card:hover .pop-out-driver {
     transform: translateX(-50%) translateY(-10px) scale(1.05);
 }
+body {
+    font: 15px/1.5 arial, helvetica, sans-serif;
+}
 
+p.f1-intro:first-letter {
+    float: left;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: bold;
+    margin-right: 9px;
+    color: rgb(114, 20, 3);
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: rgb(247, 248, 244) .05em .05em;
+}
