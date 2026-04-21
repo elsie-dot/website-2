@@ -6,7 +6,9 @@ body
     margin: 1em auto;
     max-width: 35em;
 }
-
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 header,
 footer,
 h2 {
@@ -228,9 +230,7 @@ td, th {
 tr:nth-child(even) {
   background-color: #090909;
 }
-body {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 
 .navbar {
   overflow: hidden;
@@ -247,27 +247,40 @@ body {
   text-decoration: none;
 }
 body {
-    /* The path to your image */
     background-image: url('background2.jpeg');
 
     /* This keeps the image from repeating if it's too small */
     background-repeat: no-repeat;
 
-    /* This centers the image */
+   
     background-position: center;
 
-    /* This makes the image cover the entire screen, stretching if needed */
+    /* This makes the image cover the entire screen */
     background-size: cover;
 
-    /* This keeps the background fixed so it doesn't move when you scroll */
+    /* This keeps the background fixed so it doesn't move when scrolling */
     background-attachment: fixed;
 }
 nav {
     position: sticky;
     top: 0;
-    background: rgba(255, 255, 255, 0.1); /* Very faint white */
-    backdrop-filter: blur(10px);          /* This blurs the F1 car as it passes under */
-    border-bottom: 2px solid #e10600;     /* F1 Red racing stripe */
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px);          
+    border-bottom: 2px solid #80100d;     /* F1 Red racing stripe */
     padding: 15px 0;
+}
+.inset-box {
+    background-color: #160f0f;
+    color: #980808; 
+    padding: 20px;
+    border: 2px solid #130101;
+    border-radius: 5px;
+    font-weight: 900;
+
+    
+    /* This creates the sunken look */
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.8);
+    
+    font-family: 'racing sans one', sans-serif;
 }
 
