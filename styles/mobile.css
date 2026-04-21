@@ -6,6 +6,44 @@ body
     margin: 1em auto;
     max-width: 35em;
 }
+h1 {
+    font-size: 4.286em; /* 60px */
+    margin-bottom: 24px;
+    width: auto;
+    text-align: center;
+}
+/* Portrait and Landscape */
+
+@media only screen 
+and (min-device-width: 240px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+/* Portrait */
+@media only screen 
+and (min-device-width: 240px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+@media only screen and (max-width: 767px) {
+    .content-block {
+        text-align: center !important;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
 
 header,
 footer,
