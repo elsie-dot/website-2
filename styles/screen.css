@@ -22,6 +22,7 @@ h2 {
 h1 {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 h4 {
     color: rgb(250, 247, 247);
@@ -380,4 +381,27 @@ p.f1-intro:first-letter {
     color: rgb(114, 20, 3);
     font-family: "Times New Roman", Times, serif;
     text-shadow: rgb(247, 248, 244) .05em .05em;
+}
+f1-social-link {
+    display: inline-flex;
+    align-items: center;
+    background: #1a1a1a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-left: 4px solid #e10600; /* Red Bull/Ferrari Red */
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.f1-social-link:hover {
+    background: #e10600;
+    transform: skewX(-10deg); /* Makes it look fast when you hover */
+}
+
+.insta-icon {
+    width: 20px;
+    margin-right: 10px;
 }
